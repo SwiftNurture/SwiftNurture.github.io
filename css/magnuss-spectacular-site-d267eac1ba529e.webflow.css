@@ -613,11 +613,25 @@ h1 {
     background-position: 21%;
   }
 
-  .heading {
+  .section.black.herop {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading, .heading.top {
     font-size: 30px;
   }
 
+  .heading.mid {
+    font-size: 40px;
+  }
+
   .quick-stack {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-self: center;
+    padding-left: 0;
+    position: static;
     right: 0;
   }
 
