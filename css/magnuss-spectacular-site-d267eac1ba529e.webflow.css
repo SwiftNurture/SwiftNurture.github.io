@@ -585,6 +585,10 @@ h1 {
     font-size: 60px;
   }
 
+  .heading.top {
+    font-size: 50px;
+  }
+
   .heading.mid {
     font-size: 45px;
   }
